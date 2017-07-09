@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gka-animation-preview</title>
+    <link href="./JOE-gka.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="gka" class="gka-base"></div>
+    <script>
+    function loadImage(names, cb, prefix){
+        var n = 0, img;
+        names.forEach(function(name) {
+            img = new Image();
+            img.onload = function() {
+                (++n === names.length) && cb && cb();
+            };
+            img.src = (prefix || '') + name;
+        });
+    }
+
+    var imgNames = ["JOE-1.png","JOE-2.png","JOE-3.png","JOE-4.png","JOE-5.png","JOE-6.png","JOE-7.png","JOE-8.png","JOE-9.png","JOE-10.png","JOE-11.png","JOE-12.png","JOE-13.png","JOE-14.png","JOE-15.png","JOE-16.png","JOE-17.png","JOE-18.png","JOE-19.png","JOE-20.png","JOE-21.png","JOE-22.png","JOE-23.png","JOE-24.png","JOE-25.png","JOE-26.png","JOE-27.png","JOE-28.png","JOE-29.png","JOE-30.png","JOE-31.png","JOE-32.png","JOE-33.png","JOE-34.png","JOE-35.png","JOE-36.png","JOE-37.png","JOE-38.png","JOE-39.png","JOE-40.png","JOE-41.png","JOE-42.png","JOE-43.png","JOE-44.png","JOE-45.png","JOE-46.png","JOE-47.png","JOE-48.png","JOE-49.png","JOE-50.png","JOE-51.png","JOE-52.png","JOE-53.png","JOE-54.png","JOE-55.png","JOE-56.png","JOE-57.png","JOE-58.png","JOE-59.png","JOE-60.png","JOE-61.png","JOE-62.png","JOE-63.png","JOE-64.png","JOE-65.png","JOE-66.png","JOE-67.png","JOE-68.png","JOE-69.png","JOE-70.png","JOE-71.png","JOE-72.png","JOE-73.png","JOE-74.png","JOE-75.png","JOE-76.png","JOE-77.png","JOE-78.png","JOE-79.png","JOE-80.png","JOE-81.png","JOE-82.png","JOE-83.png","JOE-84.png","JOE-85.png","JOE-86.png","JOE-87.png","JOE-88.png","JOE-89.png","JOE-90.png","JOE-91.png","JOE-92.png"];
+
+    loadImage(imgNames, function() {
+        document.getElementById('gka').className += " JOE-animation"
+    }, "img/")
+    </script>
+</body>
+</html>

@@ -1,0 +1,401 @@
+.gka-base {
+    width: 400px;
+    height: 215px;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    /* background-size: contain;*/
+    
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    
+    animation-timing-function: steps(1);
+
+    /* 只播放一次，播放停止到最后一帧*/
+    /* animation-iteration-count: 1; */ 
+}
+
+.JOE-animation {
+    animation-name: JOE-keyframes;
+    animation-duration: 3.7600000000000002s;
+}
+
+@-webkit-keyframes JOE-keyframes {
+    0%{
+        background-image: url("img/JOE-1.png");
+    }
+
+    1.08%{
+        background-image: url("img/JOE-2.png");
+    }
+
+    2.15%{
+        background-image: url("img/JOE-3.png");
+    }
+
+    3.23%{
+        background-image: url("img/JOE-4.png");
+    }
+
+    4.30%{
+        background-image: url("img/JOE-5.png");
+    }
+
+    5.38%{
+        background-image: url("img/JOE-6.png");
+    }
+
+    6.45%{
+        background-image: url("img/JOE-7.png");
+    }
+
+    7.53%{
+        background-image: url("img/JOE-8.png");
+    }
+
+    8.60%{
+        background-image: url("img/JOE-9.png");
+    }
+
+    9.68%{
+        background-image: url("img/JOE-10.png");
+    }
+
+    10.75%{
+        background-image: url("img/JOE-11.png");
+    }
+
+    11.83%{
+        background-image: url("img/JOE-12.png");
+    }
+
+    12.90%{
+        background-image: url("img/JOE-13.png");
+    }
+
+    13.98%{
+        background-image: url("img/JOE-14.png");
+    }
+
+    15.05%{
+        background-image: url("img/JOE-15.png");
+    }
+
+    16.13%{
+        background-image: url("img/JOE-16.png");
+    }
+
+    17.20%{
+        background-image: url("img/JOE-17.png");
+    }
+
+    18.28%{
+        background-image: url("img/JOE-18.png");
+    }
+
+    19.35%{
+        background-image: url("img/JOE-19.png");
+    }
+
+    20.43%{
+        background-image: url("img/JOE-20.png");
+    }
+
+    21.51%{
+        background-image: url("img/JOE-21.png");
+    }
+
+    22.58%{
+        background-image: url("img/JOE-22.png");
+    }
+
+    23.66%{
+        background-image: url("img/JOE-23.png");
+    }
+
+    24.73%{
+        background-image: url("img/JOE-24.png");
+    }
+
+    25.81%{
+        background-image: url("img/JOE-25.png");
+    }
+
+    26.88%{
+        background-image: url("img/JOE-26.png");
+    }
+
+    27.96%{
+        background-image: url("img/JOE-27.png");
+    }
+
+    29.03%{
+        background-image: url("img/JOE-28.png");
+    }
+
+    30.11%{
+        background-image: url("img/JOE-29.png");
+    }
+
+    31.18%{
+        background-image: url("img/JOE-30.png");
+    }
+
+    32.26%{
+        background-image: url("img/JOE-31.png");
+    }
+
+    33.33%{
+        background-image: url("img/JOE-32.png");
+    }
+
+    34.41%{
+        background-image: url("img/JOE-33.png");
+    }
+
+    35.48%{
+        background-image: url("img/JOE-34.png");
+    }
+
+    36.56%{
+        background-image: url("img/JOE-35.png");
+    }
+
+    37.63%{
+        background-image: url("img/JOE-36.png");
+    }
+
+    38.71%{
+        background-image: url("img/JOE-36.png");
+    }
+
+    39.78%{
+        background-image: url("img/JOE-37.png");
+    }
+
+    40.86%{
+        background-image: url("img/JOE-38.png");
+    }
+
+    41.94%{
+        background-image: url("img/JOE-39.png");
+    }
+
+    43.01%{
+        background-image: url("img/JOE-40.png");
+    }
+
+    44.09%{
+        background-image: url("img/JOE-41.png");
+    }
+
+    45.16%{
+        background-image: url("img/JOE-42.png");
+    }
+
+    46.24%{
+        background-image: url("img/JOE-43.png");
+    }
+
+    47.31%{
+        background-image: url("img/JOE-44.png");
+    }
+
+    48.39%{
+        background-image: url("img/JOE-45.png");
+    }
+
+    49.46%{
+        background-image: url("img/JOE-46.png");
+    }
+
+    50.54%{
+        background-image: url("img/JOE-47.png");
+    }
+
+    51.61%{
+        background-image: url("img/JOE-48.png");
+    }
+
+    52.69%{
+        background-image: url("img/JOE-49.png");
+    }
+
+    53.76%{
+        background-image: url("img/JOE-50.png");
+    }
+
+    54.84%{
+        background-image: url("img/JOE-51.png");
+    }
+
+    55.91%{
+        background-image: url("img/JOE-52.png");
+    }
+
+    56.99%{
+        background-image: url("img/JOE-53.png");
+    }
+
+    58.06%{
+        background-image: url("img/JOE-54.png");
+    }
+
+    59.14%{
+        background-image: url("img/JOE-55.png");
+    }
+
+    60.22%{
+        background-image: url("img/JOE-56.png");
+    }
+
+    61.29%{
+        background-image: url("img/JOE-57.png");
+    }
+
+    62.37%{
+        background-image: url("img/JOE-58.png");
+    }
+
+    63.44%{
+        background-image: url("img/JOE-59.png");
+    }
+
+    64.52%{
+        background-image: url("img/JOE-60.png");
+    }
+
+    65.59%{
+        background-image: url("img/JOE-61.png");
+    }
+
+    66.67%{
+        background-image: url("img/JOE-62.png");
+    }
+
+    67.74%{
+        background-image: url("img/JOE-63.png");
+    }
+
+    68.82%{
+        background-image: url("img/JOE-64.png");
+    }
+
+    69.89%{
+        background-image: url("img/JOE-65.png");
+    }
+
+    70.97%{
+        background-image: url("img/JOE-66.png");
+    }
+
+    72.04%{
+        background-image: url("img/JOE-67.png");
+    }
+
+    73.12%{
+        background-image: url("img/JOE-68.png");
+    }
+
+    74.19%{
+        background-image: url("img/JOE-69.png");
+    }
+
+    75.27%{
+        background-image: url("img/JOE-70.png");
+    }
+
+    76.34%{
+        background-image: url("img/JOE-71.png");
+    }
+
+    77.42%{
+        background-image: url("img/JOE-72.png");
+    }
+
+    78.49%{
+        background-image: url("img/JOE-73.png");
+    }
+
+    79.57%{
+        background-image: url("img/JOE-74.png");
+    }
+
+    80.65%{
+        background-image: url("img/JOE-75.png");
+    }
+
+    81.72%{
+        background-image: url("img/JOE-76.png");
+    }
+
+    82.80%{
+        background-image: url("img/JOE-77.png");
+    }
+
+    83.87%{
+        background-image: url("img/JOE-78.png");
+    }
+
+    84.95%{
+        background-image: url("img/JOE-79.png");
+    }
+
+    86.02%{
+        background-image: url("img/JOE-80.png");
+    }
+
+    87.10%{
+        background-image: url("img/JOE-81.png");
+    }
+
+    88.17%{
+        background-image: url("img/JOE-82.png");
+    }
+
+    89.25%{
+        background-image: url("img/JOE-83.png");
+    }
+
+    90.32%{
+        background-image: url("img/JOE-84.png");
+    }
+
+    91.40%{
+        background-image: url("img/JOE-85.png");
+    }
+
+    92.47%{
+        background-image: url("img/JOE-86.png");
+    }
+
+    93.55%{
+        background-image: url("img/JOE-87.png");
+    }
+
+    94.62%{
+        background-image: url("img/JOE-88.png");
+    }
+
+    95.70%{
+        background-image: url("img/JOE-89.png");
+    }
+
+    96.77%{
+        background-image: url("img/JOE-90.png");
+    }
+
+    97.85%{
+        background-image: url("img/JOE-89.png");
+    }
+
+    98.92%{
+        background-image: url("img/JOE-91.png");
+    }
+
+    100.00%{
+        background-image: url("img/JOE-92.png");
+    }
+
+}
