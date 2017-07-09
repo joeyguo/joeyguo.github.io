@@ -1,0 +1,83 @@
+.gka-base {
+    width: 314px;
+    height: 314px;
+
+    background-repeat: no-repeat;
+
+    /* background-size: contain;*/
+
+    animation-timing-function: steps(1);
+    animation-fill-mode: forwards;
+
+    animation-iteration-count: infinite;
+
+    /* 只播放一次，播放停止到最后一帧*/
+    /* animation-iteration-count: 1; */ 
+}
+
+.iori-animation {
+    background-image: url(./img/iori-sprites.png);
+
+    animation-name: iori-keyframes;
+    animation-duration: 1.52s;
+}
+
+@-webkit-keyframes iori-keyframes {
+    0%{
+        background-position: -314px 0;
+    }
+    5.56%{
+        background-position: -942px 0;
+    }
+    11.11%{
+        background-position: 0 -314px;
+    }
+    16.67%{
+        background-position: -314px -314px;
+    }
+    22.22%{
+        background-position: -628px 0;
+    }
+    27.78%{
+        background-position: -628px -314px;
+    }
+    33.33%{
+        background-position: 0 -628px;
+    }
+    38.89%{
+        background-position: -314px -628px;
+    }
+    44.44%{
+        background-position: -628px -628px;
+    }
+    50.00%{
+        background-position: 0 0;
+    }
+    55.56%{
+        background-position: -942px -314px;
+    }
+    61.11%{
+        background-position: -942px -628px;
+    }
+    66.67%{
+        background-position: 0 -942px;
+    }
+    72.22%{
+        background-position: -314px -942px;
+    }
+    77.78%{
+        background-position: -628px -942px;
+    }
+    83.33%{
+        background-position: -942px -942px;
+    }
+    88.89%{
+        background-position: -1256px 0;
+    }
+    94.44%{
+        background-position: -1256px -314px;
+    }
+    100.00%{
+        background-position: -1256px -628px;
+    }
+}
